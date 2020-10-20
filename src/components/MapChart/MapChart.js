@@ -24,7 +24,7 @@ const MapChart = () => {
 
   useEffect(() => {
     // https://www.bls.gov/lau/
-    csv("data/test.csv").then(counties => {
+    csv("test.csv").then(counties => {
       setData(counties);
     });
   }, []);
